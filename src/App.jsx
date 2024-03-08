@@ -3,6 +3,7 @@ import Header from "./components/layout/Header"
 import Home from "./components/Pages/Home";
 import Review from "./components/Pages/Review";
 import About from "./components/Pages/About";
+import Allreviews from "./components/Pages/Allreviews";
 
 
 
@@ -15,7 +16,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/review" element={<Review />} />
+          <Route path="/review" element={<Review />} />          
+          <Route path="/allreviews" element={<Allreviews/>} />          
         </Routes>
       </Router>
 

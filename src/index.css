@@ -21,6 +21,7 @@ ul {
   max-width: 768px;
   margin: auto;
   padding: 0 20px;
+  
 }
 
 header {
@@ -192,6 +193,14 @@ input:focus {
   text-align: center;
   color: #ff6a95;
 }
+
+.allReviewbtn{
+  display:flex;
+  justify-content: center;
+}
+/* .allReviewbtn{
+ 
+} */
 
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
  * document */
